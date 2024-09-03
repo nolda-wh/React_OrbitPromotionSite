@@ -88,6 +88,16 @@ body {
 
 .navbar {
   border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+
 }
+
+.bg-gray {
+  background-color: #323232;
+}
+
+a {
+  text-decoration: none;
+}
+
 
 /* #00FFFF / #FF00FF */

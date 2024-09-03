@@ -2,10 +2,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import startinglogo from './images/logo.png';
 import orbitlogo from './images/orbit_logo.png';
 import { faCloudArrowDown, faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
-<nav class="navbar fixed-top navbar-expand-lg bg-dark font-11">
+<nav class="navbar fixed-top navbar-expand-lg font-11">
   <div class="container-fluid">
     <ul class="navbar-nav py-3 px-4">
       <li class="nav-item dropdown pe-4">
@@ -19,22 +20,22 @@ function Nav() {
         </ul>
       </li>
     </ul>
-    <a class="navbar-brand" href="#">
+    <Link class="navbar-brand" to="/">
       <img src={orbitlogo} className='orbit-logo'/>
-    </a>
+    </Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse ps-3" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item px-2">
-          <a class="nav-link active text-light box-click" aria-current="page" href="#"><span>메인</span></a>
+        <li class="nav-item px-2 d-flex align-items-center">
+          <Link exact='true' to="/" class="nav-link active text-light box-click"><span>메인</span></Link>
         </li>
-        <li class="nav-item px-2">
-          <a class="nav-link text-light box-click" href="#"><span>패치노트</span></a>
+        <li class="nav-item px-2 d-flex align-items-center">
+          <Link exact='true' to="/patchnote" className='nav-link text-light box-click'><span>패치노트</span></Link>
         </li>
-        <li class="nav-item px-2">
-          <a class="nav-link text-light box-click" href="https://store.onstove.com/ko/games/3783" target='_blank'><span>스토어 <FontAwesomeIcon icon={faSquareArrowUpRight}/></span></a>
+        <li class="nav-item px-2 d-flex align-items-center">
+          <a href="https://store.onstove.com/ko/games/3783" target='_blank' className='text-light box-click nav-link'><span>스토어 <FontAwesomeIcon icon={faSquareArrowUpRight}/></span></a>
         </li>
       </ul>
     </div>
