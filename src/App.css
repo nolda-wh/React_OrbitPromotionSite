@@ -70,4 +70,24 @@ body {
   object-fit: cover;  
 }
 
+.downloadBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #44caca;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.downloadBtn:hover {
+  background-color: #a1dddd;
+  transition: all 0.3s;
+}
+
+.navbar {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+}
+
 /* #00FFFF / #FF00FF */
