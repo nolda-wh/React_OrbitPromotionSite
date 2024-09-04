@@ -28,6 +28,11 @@ a {
 
 .starting-logo {
   width: 170px;
+  height: auto;
+}
+
+.starting-logo-menu {
+  width: 90px;
 }
 
 .offcanvas-backdrop {

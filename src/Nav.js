@@ -32,14 +32,14 @@ function Nav() {
       <nav className={`navbar fixed-top navbar-expand-lg font-11 ${bgColor}`}>
         <div className="container-fluid">
           <div className="navbar-nav py-4 px-4">
-            <div className="nav-item dropdown pe-4">
-              <a className="ps-4 flex-row d-flex logomenu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-                <img className="starting-logo pe-3" src={startinglogo} alt="Starting Logo" />
+            <div className="nav-item dropdown px-4">
+              <a className=" flex-row d-flex logomenu box-click " data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                <img className="starting-logo pe-3" src={startinglogo} alt="STARTING" />
                 <div className='text-white'><FontAwesomeIcon icon={faChevronRight}/></div>
               </a>
             </div>
           </div>
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand box-click" to="/">
             <img src={orbitlogo} className='orbit-logo' alt="Orbit Logo" />
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,10 +68,10 @@ function Nav() {
 
       <div className="offcanvas offcanvas-bottom bg-black px-4 border-bottom-1" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
         <div className="offcanvas-header">
-
-          <a type="button" className="" data-bs-dismiss="offcanvas" aria-label="Close">
-            <FontAwesomeIcon icon={faXmark} className='fa-2xl text-white'/>
-          </a>
+            <a type="button" className="box-click" data-bs-dismiss="offcanvas" aria-label="Close">
+              <FontAwesomeIcon icon={faXmark} className='fa-2xl text-white'/> 
+            </a>
+          <a href="https://starting.run" target='_blank' className='ps-4'><div className='box-click px-2'><span className='font-11 text-white'><img className="starting-logo-menu pe-2" src={startinglogo}/>바로가기 <FontAwesomeIcon icon={faSquareArrowUpRight}/></span></div></a>
         </div>
         <div className="offcanvas-body text-white font-11">
           <div className='fw-bolder mb-4'>GAMES</div>
