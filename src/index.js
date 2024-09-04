@@ -6,15 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom';
 import Nav from './Nav';
 import Footer from './Footer';
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from './Function/ScrollToTop';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
-    <Nav />
-    <ScrollToTop />
-    <App />
+    <Nav/>
+    <ScrollToTop/>
+    <App/>
     <Footer/>
   </HashRouter>
 );

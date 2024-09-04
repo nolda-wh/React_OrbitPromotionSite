@@ -87,11 +87,16 @@ const Home = () => {
   }, []);
 
   return (
-    <div className='bg-black'>
+    <div className='bg-black box-parent'>
+        <div class="box">
+          <p>scroll down</p>
+          <div class="vertical"></div>
+        </div>
       <div className="bg-video-prj " style={{ transform: `scale(${videoScale})` }}>
         <video className="bg-video__content bg-black" autoPlay muted loop>
           <source src={intro} type="video/mp4" />
         </video>
+
       </div>
 
       <div
