@@ -74,7 +74,7 @@ function Nav() {
           </a>
         </div>
         <div className="offcanvas-body text-white font-11">
-          <div className='fw-bolder mb-4'>PROJECT</div>
+          <div className='fw-bolder mb-4'>GAMES</div>
           
           <div className='row row-cols-3'>
             <div className='col'>
