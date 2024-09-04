@@ -26,15 +26,6 @@ a {
   cursor: pointer;
 }
 
-.starting-logo {
-  width: 170px;
-  height: auto;
-}
-
-.starting-logo-menu {
-  width: 90px;
-}
-
 .offcanvas-backdrop {
   background-color : rgba(255,255,255,1) !important;
 }
@@ -113,7 +104,7 @@ a {
 .bg-video__content {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  background-size: contain;
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
@@ -143,19 +134,55 @@ a {
 }
 
 .downloadBtn {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 250px;
-  height: 100%;
-  background-color: #44caca;
-  color: #000;
-  transition: all 0.3s;
+  display: none;
 }
 
-.downloadBtn:hover {
-  background-color: #a1dddd;
-  transition: all 0.3s;
+/* 모바일X PC크기에서만 작동하는 영역*/
+@media (min-width: 992px) {
+  .downloadBtn {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #44caca;
+    color: #000;
+    transition: all 0.3s;
+  }
+
+  .downloadBtn:hover {
+    background-color: #a1dddd;
+    transition: all 0.3s;
+  }
+
+  .px-4-only-pc {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
+
+}
+
+/* 모바일전용 */
+@media (max-width: 991px) {
+  .starting-logo {
+    background-image: url('./images/logo_mobile.png') !important;
+    width: 72px !important;
+    
+  }
+}
+
+.starting-logo {
+  background-image: url('./images/logo.png');
+  width: 170px; /* 적절한 크기로 설정하세요 */
+  background-size: contain; /* 이미지 비율을 유지하며 요소에 맞춤 */
+  background-repeat: no-repeat; /* 이미지 반복 방지 */
+  background-position: center; /* 이미지 중앙 정렬 */
+  display: block; /* 이 요소가 이미지처럼 보이도록 함 */
+}
+
+.starting-logo-menu {
+  width: 90px;
 }
 
 .navbar {
