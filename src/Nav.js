@@ -58,12 +58,12 @@ function Nav() {
               </li>
             </ul>
           </div>
-          <a href="https://store.onstove.com/ko/games/3783">
+        </div>
+        <a href="https://store.onstove.com/ko/games/3783">
             <div className="downloadBtn">
               <div className='position-absolute top-50 start-50 translate-middle'><FontAwesomeIcon className='fa-2xl' icon={faCloudArrowDown}/></div>
             </div>
           </a>
-        </div>
       </nav>
 
       <div className="offcanvas offcanvas-bottom bg-black px-4 border-bottom-1" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
