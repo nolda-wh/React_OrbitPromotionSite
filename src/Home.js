@@ -123,7 +123,7 @@ const Home = () => {
       >
         <div className='fs-2 text-sig2 font-11'>고퀄리티 그래픽</div>
         <div className='fs-5 font-11 mb-5'>
-          최신 <img className="unitylogo" src={unitylogo} /> Unity6 엔진의 HDRP(High Definition Reder Pipeline)를 통해 고퀄리티 그래픽을 제공합니다.
+          최신 <img className="unitylogo" src={unitylogo} />Unity6 엔진의 HDRP(High Definition Reder Pipeline)를 통해 고퀄리티 그래픽을 제공합니다.
         </div>
         <div className='fs-2 text-sig2 font-11'>쉬운 조작감</div>
         <div className='fs-5 font-11 mb-3'>

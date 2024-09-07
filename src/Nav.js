@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import startinglogo from './images/logo.png';
 import orbitlogo from './images/orbit_logo.png';
 import { faChevronRight, faCloudArrowDown, faSquareArrowUpRight, faXmark } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import games_orbit from './images/intro_1.mp4';
 import { useEffect, useState } from 'react';
 
@@ -48,10 +48,10 @@ function Nav() {
           <div className="collapse navbar-collapse ps-3" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item px-2 d-flex align-items-center">
-                <Link exact='true' to="/" className="nav-link active text-light box-click"><span>메인</span></Link>
+                <NavLink exact='true' to="/" className="nav-link text-light box-click"><span>메인</span></NavLink>
               </li>
               <li className="nav-item px-2 d-flex align-items-center">
-                <Link exact='true' to="/patchnote" className='nav-link text-light box-click'><span>패치노트</span></Link>
+                <NavLink exact='true' to="/patchnote" className='nav-link text-light box-click'><span>패치노트</span></NavLink>
               </li>
               <li className="nav-item px-2 d-flex align-items-center">
                 <a href="https://store.onstove.com/ko/games/3783" target='_blank' rel="noopener noreferrer" className='text-light box-click nav-link'><span>스토어 <FontAwesomeIcon icon={faSquareArrowUpRight}/></span></a>

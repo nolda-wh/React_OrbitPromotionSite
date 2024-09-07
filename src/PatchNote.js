@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import banner from './images/image5.png';
+import banner from './images/image6.png';
 
 function PatchNote() {
   const [patchNotes, setPatchNotes] = useState({});
@@ -28,7 +28,7 @@ function PatchNote() {
     <div className='bg-dark pb-5'>
       <div className='patchnote'>
         <div className='d-flex justify-content-center position-absolute top-50 start-50 translate-middle'>
-          <span className='font-11 fs-0 text-white'>패치노트</span>
+          <span className='font-11 fs-0 text-white text-shadow'>패치노트</span>
         </div>
         <img className="patchnote_banner" src={banner} alt="Banner"/>
       </div>
@@ -36,15 +36,15 @@ function PatchNote() {
       <div className='container-md'>
         {Object.keys(patchNotes).map((header, index) => (
           <div key={index} className="d-flex justify-content-center pt-5">
-            <div className="card">
-              <div className="card-header font-11 fw-bold">
+            <div className="card w-100 mx-4 border-0 rounded-4">
+              <div className="card-header font-11 fw-bold text-white fs-4 p-4 rounded-4 mb-2">
                 {header}
               </div>
               {patchNotes[header].map((note, idx) => (
-                <div key={idx} className="card-body font-11">
-                  <blockquote className="blockquote mb-0 fs-6">
+                <div key={idx} className="card-body font-11 rounded-4 my-1">
+                  <blockquote className="blockquote mb-0 fs-6 text-white">
                     <p>{note.text}</p>
-                    <footer className="blockquote-footer fs-7">{note.date}</footer>
+                    <footer className="blockquote-footer fs-7 text-gray">{note.date}</footer>
                   </blockquote>
                 </div>
               ))}

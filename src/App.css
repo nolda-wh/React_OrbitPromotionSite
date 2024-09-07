@@ -34,11 +34,10 @@ a {
 .border-bottom-1 {
   border-top: solid 1px rgba(255, 255, 255, 0.3) !important;
 }
-
-.offcanvas-backdrop {
-  background-color: #fff;
-}
-
+/*
+.offcanvas-body {
+  width: 100 !important;
+}*/
 
 .orbit-logo {
   width: 110px;
@@ -230,7 +229,7 @@ a {
 }
 
 .unitylogo {
-  width: 50px;
+  width: 40px;
 }
 
 .card {
@@ -321,6 +320,23 @@ a {
   100% {
     margin-top: 0;
   }
+}
+
+.card {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.card-header {
+  border : 1px solid hsl(0, 0%, 50%) !important;
+  background-color: #2b2b2b !important;
+}
+
+.card-body {
+  background-color: #0c0c0c !important;
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 30px #000 !important;
 }
 
 /* #00FFFF / #FF00FF */
