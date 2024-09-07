@@ -7,7 +7,7 @@ import games_orbit from '../images/intro_1.mp4';
 import { useEffect, useState } from 'react';
 
 function Nav() {
-  const [bgColor, setBgColor] = useState(''); // State for background color
+  const [bgColor, setBgColor] = useState('bg-blur'); // 초기 상태를 'bg-blur'로 설정
 
   useEffect(() => {
     // Function to handle scroll events
