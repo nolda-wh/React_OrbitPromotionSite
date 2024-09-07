@@ -80,8 +80,8 @@ function Nav() {
           <div className='fw-bolder mb-2'>GAMES</div>
           
           <div className='row row-cols-1 row-cols-md-3'>
-            <div className='col box-click'>
-              <a href="https://orbit.starting.run">
+
+            <a className='col box-click' href="https://orbit.starting.run">
                   <div className='row row-cols-2'>
                     <div class="col-6 rounded-4 border-0 ">
                       <video className="card-image-main rounded-4" autoPlay muted loop>
@@ -93,10 +93,9 @@ function Nav() {
                       <div class="card-text text-white">AI에게 지배당한 세상을 구원하라</div>
                     </div>
                   </div>
-              </a>
-            </div>
-          </div>
+            </a>
 
+          </div>
         </div>
       </div>
     </>
