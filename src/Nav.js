@@ -15,7 +15,7 @@ function Nav() {
       if (window.scrollY > 50) {
         setBgColor('bg-black'); // Add bg-black class when scrolled down
       } else {
-        setBgColor('bg-transparent'); // Remove bg-black class when at the top
+        setBgColor('bg-blur'); // Remove bg-black class when at the top
       }
     };
 
