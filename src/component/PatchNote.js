@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import banner from '../images/image6.png';
+import { Helmet } from 'react-helmet';
 
 function PatchNote() {
   const [patchNotes, setPatchNotes] = useState({});
@@ -26,6 +27,7 @@ function PatchNote() {
 
   return (
     <div className='bg-dark pb-5'>
+      <Helmet><title>패치노트 | 오르빗</title></Helmet>
       <div className='patchnote'>
         <div className='justify-content-center position-absolute top-50 start-50 translate-middle'>
           <div className='font-11 fs-0 text-white text-shadow'>패치노트</div>

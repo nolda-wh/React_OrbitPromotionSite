@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import intro from '../images/intro.mp4';
 import unitylogo from '../images/unity.jpg';
 import secret from '../images/secret.png';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   const [videoScale, setVideoScale] = useState(1);
@@ -88,6 +89,7 @@ const Home = () => {
 
   return (
     <div className='bg-black box-parent'>
+      <Helmet><title>오르빗</title></Helmet>
         <div class="box">
           <p>scroll down</p>
           <div class="vertical"></div>
