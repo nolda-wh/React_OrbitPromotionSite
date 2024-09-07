@@ -81,13 +81,13 @@ function Nav() {
               <a href="https://orbit.starting.run">
                 <div className='project-card ps-2'>
                   <div className='row row-cols-2'>
-                    <div class="col-7 card rounded-4  p-0 border-0 bg-black">
+                    <div class="col-7 rounded-4 border-0 ">
                       <video className="card-image-main rounded-4" autoPlay muted loop>
                         <source src={games_orbit} type="video/mp4" />
                         </video>
                     </div>
                     <div class="col-5">
-                      <div class="card-body p-2">
+                      <div class=" p-2">
                         <h5 class="card-title fw-bolder mb-2 text-white fs-3">Orbit</h5>
                         <p class="card-text text-white">AI에게 지배당한 세상을 구원하라</p>
                       </div>
