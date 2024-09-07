@@ -149,9 +149,11 @@ a {
     right: 0;
     width: 250px;
     height: 100%;
-    background-color: #44caca;
+    background-color: rgba(68, 202, 202, 1);
     color: #000;
     transition: all 0.3s;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
   }
 
   .downloadBtn:hover {
@@ -253,11 +255,6 @@ a {
 
 .grade img {
   width: 80px;
-}
-
-.project-card {
-  width: 500px;
-
 }
 
 .project-video {

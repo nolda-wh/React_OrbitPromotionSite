@@ -66,7 +66,7 @@ function Nav() {
           </a>
       </nav>
 
-      <div className="offcanvas offcanvas-bottom bg-black px-4 border-bottom-1" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div className="offcanvas offcanvas-top bg-black px-4 border-top-1" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
         <div className="offcanvas-header">
             <a type="button" className="box-click" data-bs-dismiss="offcanvas" aria-label="Close">
               <FontAwesomeIcon icon={faXmark} className='fa-2xl text-white'/> 
@@ -74,26 +74,22 @@ function Nav() {
           <a href="https://starting.run" target='_blank' className='ps-4'><div className='box-click px-2'><span className='font-11 text-white'><img className="starting-logo-menu pe-2" src={startinglogo}/>바로가기 <FontAwesomeIcon icon={faSquareArrowUpRight}/></span></div></a>
         </div>
         <div className="offcanvas-body text-white font-11">
-          <div className='fw-bolder mb-4'>GAMES</div>
+          <div className='fw-bolder mb-2'>GAMES</div>
           
-          <div className='row row-cols-3'>
-            <div className='col'>
+          <div className='row row-cols-1 row-cols-md-3'>
+            <div className='col box-click'>
               <a href="https://orbit.starting.run">
-                <div className='project-card ps-2'>
                   <div className='row row-cols-2'>
-                    <div class="col-7 rounded-4 border-0 ">
+                    <div class="col-6 rounded-4 border-0 ">
                       <video className="card-image-main rounded-4" autoPlay muted loop>
                         <source src={games_orbit} type="video/mp4" />
                         </video>
                     </div>
-                    <div class="col-5">
-                      <div class=" p-2">
-                        <h5 class="card-title fw-bolder mb-2 text-white fs-3">Orbit</h5>
-                        <p class="card-text text-white">AI에게 지배당한 세상을 구원하라</p>
-                      </div>
+                    <div class="col-6">
+                      <div class="card-title fw-bolder mb-2 text-white fs-3">Orbit</div>
+                      <div class="card-text text-white">AI에게 지배당한 세상을 구원하라</div>
                     </div>
                   </div>
-                </div>
               </a>
             </div>
           </div>
