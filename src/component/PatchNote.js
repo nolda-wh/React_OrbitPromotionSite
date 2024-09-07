@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import banner from './images/image6.png';
+import banner from '../images/image6.png';
 
 function PatchNote() {
   const [patchNotes, setPatchNotes] = useState({});
@@ -27,8 +27,8 @@ function PatchNote() {
   return (
     <div className='bg-dark pb-5'>
       <div className='patchnote'>
-        <div className='d-flex justify-content-center position-absolute top-50 start-50 translate-middle'>
-          <span className='font-11 fs-0 text-white text-shadow'>패치노트</span>
+        <div className='justify-content-center position-absolute top-50 start-50 translate-middle'>
+          <div className='font-11 fs-0 text-white text-shadow'>패치노트</div>
         </div>
         <img className="patchnote_banner" src={banner} alt="Banner"/>
       </div>

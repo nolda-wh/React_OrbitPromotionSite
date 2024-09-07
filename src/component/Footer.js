@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import startinglogo from './images/logo.png';
-import orbitlogo from './images/orbit_logo.png';
+import startinglogo from '../images/logo.png';
+import orbitlogo from '../images/orbit_logo.png';
 import { faCloudArrowDown, faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import grade1 from './images/grade1.png';
-import grade2 from './images/grade2.png';
+import grade1 from '../images/grade1.png';
+import grade2 from '../images/grade2.png';
 
 function Footer() {
   return (

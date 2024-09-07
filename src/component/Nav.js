@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import startinglogo from './images/logo.png';
-import orbitlogo from './images/orbit_logo.png';
+import startinglogo from '../images/logo.png';
+import orbitlogo from '../images/orbit_logo.png';
 import { faChevronRight, faCloudArrowDown, faSquareArrowUpRight, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Link, NavLink } from 'react-router-dom';
-import games_orbit from './images/intro_1.mp4';
+import games_orbit from '../images/intro_1.mp4';
 import { useEffect, useState } from 'react';
 
 function Nav() {
@@ -52,6 +52,9 @@ function Nav() {
               </li>
               <li className="nav-item px-2 d-flex align-items-center">
                 <NavLink exact='true' to="/patchnote" className='nav-link text-light box-click'><span>패치노트</span></NavLink>
+              </li>
+              <li className="nav-item px-2 d-flex align-items-center">
+                <NavLink exact='true' to="/comment" className='nav-link text-light box-click'><span>코멘트</span></NavLink>
               </li>
               <li className="nav-item px-2 d-flex align-items-center">
                 <a href="https://store.onstove.com/ko/games/3783" target='_blank' rel="noopener noreferrer" className='text-light box-click nav-link'><span>스토어 <FontAwesomeIcon icon={faSquareArrowUpRight}/></span></a>

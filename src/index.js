@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom';
-import Nav from './Nav';
-import Footer from './Footer';
-import ScrollToTop from './Function/ScrollToTop';
+import Nav from './component/Nav';
+import Footer from './component/Footer';
+import ScrollToTop from './component/function/ScrollToTop';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

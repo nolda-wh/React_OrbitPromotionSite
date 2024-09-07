@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-import intro from './images/intro.mp4';
-import unitylogo from './images/unity.jpg';
-import secret from './images/secret.png';
+import intro from '../images/intro.mp4';
+import unitylogo from '../images/unity.jpg';
+import secret from '../images/secret.png';
 
 const Home = () => {
   const [videoScale, setVideoScale] = useState(1);
