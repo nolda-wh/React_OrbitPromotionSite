@@ -190,11 +190,11 @@ a {
 
 .starting-logo {
   background-image: url('./images/logo.png');
-  width: 170px; /* 적절한 크기로 설정하세요 */
-  background-size: contain; /* 이미지 비율을 유지하며 요소에 맞춤 */
-  background-repeat: no-repeat; /* 이미지 반복 방지 */
-  background-position: center; /* 이미지 중앙 정렬 */
-  display: block; /* 이 요소가 이미지처럼 보이도록 함 */
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
 }
 
 .starting-logo-menu {

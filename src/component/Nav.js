@@ -31,11 +31,11 @@ function Nav() {
     <>
       <nav className={`navbar fixed-top navbar-expand-lg font-11 ${bgColor}`}>
         <div className="container-fluid">
-          <div className="navbar-nav py-4 px-4-only-pc ">
+          <div className="navbar-nav py-3 px-4-only-pc ">
             <div className="nav-item dropdown px-4-only-pc">
               <a className=" flex-row d-flex logomenu box-click " data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                 <div className="starting-logo" alt="STARTING" ></div>
-                <div className='text-white'><FontAwesomeIcon icon={faChevronRight}/></div>
+                <div className='text-white ps-3'><FontAwesomeIcon icon={faChevronRight}/></div>
               </a>
             </div>
           </div>
