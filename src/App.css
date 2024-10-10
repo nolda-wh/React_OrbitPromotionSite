@@ -1,7 +1,7 @@
-@import url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css');
+@import url('https://fonts.cdnfonts.com/css/nanumsquare-neo');
 
 :root {
-  --font-11 : "NanumSquareNeo", sans-serif;
+  --font-11 : "NanumSquare Neo", sans-serif;
   --bs-body-font-family: var(--font-11);
   --multiplier       : 0.5;
   --space            : calc(3.2rem * var(--multiplier));
