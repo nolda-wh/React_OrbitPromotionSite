@@ -47,16 +47,19 @@ function Nav() {
           </button>
           <div className="collapse navbar-collapse ps-3" id="navbarNavDropdown">
             <ul className="navbar-nav">
-              <li className="nav-item px-2 d-flex align-items-center">
+              <li className="nav-item px-3 d-flex align-items-center">
                 <NavLink exact='true' to="/" className="nav-link text-light box-click"><span>메인</span></NavLink>
               </li>
-              <li className="nav-item px-2 d-flex align-items-center">
+              <li className="nav-item px-3 d-flex align-items-center">
+                <NavLink exact='true' to="/Guide" className='nav-link text-light box-click'><span>가이드</span></NavLink>
+              </li>
+              <li className="nav-item px-3 d-flex align-items-center">
                 <NavLink exact='true' to="/patchnote" className='nav-link text-light box-click'><span>패치노트</span></NavLink>
               </li>
-              <li className="nav-item px-2 d-flex align-items-center">
+              <li className="nav-item px-3 d-flex align-items-center">
                 <NavLink exact='true' to="/comment" className='nav-link text-light box-click'><span>코멘트</span></NavLink>
               </li>
-              <li className="nav-item px-2 d-flex align-items-center">
+              <li className="nav-item px-3 d-flex align-items-center">
                 <a href="https://store.onstove.com/ko/games/3783" target='_blank' rel="noopener noreferrer" className='text-light box-click nav-link'><span>스토어 <FontAwesomeIcon icon={faSquareArrowUpRight}/></span></a>
               </li>
             </ul>

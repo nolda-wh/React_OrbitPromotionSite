@@ -6,6 +6,7 @@ import './bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import GameIntroPage from './component/GameIntroPage';
 import Comment from './component/Comment';
+import Guide from './component/Guide';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Route path="/patchnote" element={<PatchNote/>}/>
       <Route path="/intro" element={<GameIntroPage/>}/>
       <Route path="/comment" element={<Comment/>}/>
+      <Route path="/guide" element={<Guide/>}/>
     </Routes>
   );
 }
