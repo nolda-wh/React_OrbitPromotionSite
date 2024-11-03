@@ -33,8 +33,8 @@ function Guide() {
               <FontAwesomeIcon icon={faPlay} className='pe-3'/><span className=''>싱글플레이</span>
             </div>
             <div className='fs-6 fw-normal'>
-                <p>여러분은 AI 몬스터에 맞서 싸워야합니다. 전장의 몬스터를 처치하고 몬스터가 움직이는 원동력인 <span className='highlight fw-bold'>아레테</span>를 파괴하고, 구역을 해방하며, <span className='highlight fw-bold'>온전한 칩</span>을 획득하세요.</p>
-                <p>각 구역의 <span className='highlight fw-bold'>여신상</span>을 통해 <span className='highlight fw-bold'>아레테</span>가 위치한 던전에 입장할 수 있습니다. 또한 이 근처에는 <span className='highlight fw-bold'>온전한 칩</span>을 사용하여 새로운 무기를 구매하여 사용할 수 있는 NPC가 위치합니다.</p>
+                <p>여러분은 AI 몬스터에 맞서 싸워야합니다. 전장의 몬스터를 처치하고 몬스터가 움직이는 원동력인 <span className='highlight2 fw-bold'>아레테</span>를 파괴하고, 구역을 해방하며, <span className='highlight2 fw-bold'>온전한 칩</span>을 획득하세요.</p>
+                <p>각 구역의 <span className='highlight2 fw-bold'>여신상</span>을 통해 <span className='highlight2 fw-bold'>아레테</span>가 위치한 던전에 입장할 수 있습니다. 또한 이 근처에는 <span className='highlight2 fw-bold'>온전한 칩</span>을 사용하여 새로운 무기를 구매하여 사용할 수 있는 NPC가 위치합니다.</p>
                 <div className='center mb-4'>
                   <img className='w-25 pe-4' src={single_02}></img>
                   <img className='w-25' src={single_01}></img>
@@ -52,8 +52,8 @@ function Guide() {
                 <div className='center mb-4'>
                   <img className='w-50 pe-4' src={multi_01}></img>
                 </div>
-                <p>멀티플레이는 한 플레이어가 호스트 역할을, 나머지 플레이어는 클라이언트로 접속하게 됩니다. 방을 만들 호스트는 <span className='highlight fw-bold'>방 만들기</span>를 눌러 방을 생성하고, 자신의 IP와 게임 내에 표시되는 PORT 번호를 나머지 플레이어에게 알려주세요. (로딩 창 / 게임 내 ESC키를 눌러 나오는 메뉴 / 채팅창에 포트번호가 표시됩니다.)</p>
-                <p>호스트가 만든 방에 입장하고 싶다면, <span className='highlight fw-bold'>방 참여하기</span>를 눌러 호스트의 IP와 PORT번호를 입력하면 접속할 수 있습니다.</p>
+                <p>멀티플레이는 한 플레이어가 호스트 역할을, 나머지 플레이어는 클라이언트로 접속하게 됩니다. 방을 만들 호스트는 <span className='highlight2 fw-bold'>방 만들기</span>를 눌러 방을 생성하고, 자신의 IP와 게임 내에 표시되는 PORT 번호를 나머지 플레이어에게 알려주세요. (로딩 창 / 게임 내 ESC키를 눌러 나오는 메뉴 / 채팅창에 포트번호가 표시됩니다.)</p>
+                <p>호스트가 만든 방에 입장하고 싶다면, <span className='highlight2 fw-bold'>방 참여하기</span>를 눌러 호스트의 IP와 PORT번호를 입력하면 접속할 수 있습니다.</p>
                 <p>회원가입을 통해 등록된 데이터는 중앙 서버에 암호화되어 보관됩니다. 어디서 접속하든지 동일한 데이터를 이용하실 수 있습니다.</p>
                 <div className='card-danger rounded-4 p-2 px-4'>
                   <div className='fs-5 mb-2 mt-2'><FontAwesomeIcon icon={faCircleQuestion} className='pe-2'/>멀티플레이 접속에 어려움을 겪으시나요?</div>

@@ -23,7 +23,13 @@ function Footer() {
             <Link exact='true' to="/" class="nav-link active text-light box-click"><span className='px-2'>메인</span></Link>
           </li>
           <li class="nav-item px-2 d-flex align-items-center">
+            <Link exact='true' to="/guide" className='nav-link text-light box-click'><span className='px-2'>가이드</span></Link>
+          </li>
+          <li class="nav-item px-2 d-flex align-items-center">
             <Link exact='true' to="/patchnote" className='nav-link text-light box-click'><span className='px-2'>패치노트</span></Link>
+          </li>
+          <li class="nav-item px-2 d-flex align-items-center">
+            <Link exact='true' to="/comment" className='nav-link text-light box-click'><span className='px-2'>코멘트</span></Link>
           </li>
           <li class="nav-item px-2 d-flex align-items-center">
             <a href="https://store.onstove.com/ko/games/3783" target='_blank' className='text-light box-click nav-link'><span className='px-2'>스토어 <FontAwesomeIcon icon={faSquareArrowUpRight}/></span></a>
