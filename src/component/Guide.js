@@ -28,7 +28,7 @@ function Guide() {
       <div className='container-md'>
         <div className='pt-5'>
 
-          <div className="card-header font-11 fw-bold text-white fs-4 p-4 rounded-4 mb-4 border-0">
+          <div className="card-header font-11 fw-bold text-white fs-4 p-4 rounded-4 mb-4 border-0 shadow-md">
             <div className='mb-4'>
               <FontAwesomeIcon icon={faPlay} className='pe-3'/><span className=''>싱글플레이</span>
             </div>
@@ -43,7 +43,7 @@ function Guide() {
             </div>
           </div>
 
-          <div className="card-header font-11 fw-bold text-white fs-4 p-4 rounded-4 mb-4 border-0">
+          <div className="card-header font-11 fw-bold text-white fs-4 p-4 rounded-4 mb-4 border-0 shadow-md">
             <div className='mb-4'>
               <FontAwesomeIcon icon={faNetworkWired} className='pe-3'/><span className=''>멀티플레이</span>
             </div>
@@ -69,7 +69,7 @@ function Guide() {
             </div>
           </div>
 
-          <div className="card-header font-11 fw-bold text-white fs-4 p-4 rounded-4 mb-4 border-0">
+          <div className="card-header font-11 fw-bold text-white fs-4 p-4 rounded-4 mb-4 border-0 shadow-md">
             <div className='mb-3'>
               <FontAwesomeIcon icon={faKeyboard} className='pe-3'/><span className=''>키세팅</span>
             </div>

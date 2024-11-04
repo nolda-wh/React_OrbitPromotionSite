@@ -127,21 +127,21 @@ const Home = () => {
         <div className='fs-5 font-11 mb-5'>
           최신 <img className="unitylogo" src={unitylogo} />Unity6 엔진의 HDRP(High Definition Reder Pipeline)를 통해 고퀄리티 그래픽을 제공합니다.
         </div>
-        <div className='fs-2 text-sig2 font-11'>쉬운 조작감</div>
-        <div className='fs-5 font-11 mb-3'>
-          FPS를 한 번이라도 해본 사람이라면 어려움 없이 게임을 플레이할 수 있습니다.<br />
-          새로운 게임을 시작함에 있어서 조작키를 학습하는 부분이 은근한 걸림돌이 될 수 있지만,<br />
-          직관적인 조작으로 통용되는 키 세팅을 사용하였습니다.
+        <div className='fs-2 text-sig2 font-11'>싱글플레이 / 멀티플레이 지원</div>
+        <div className='fs-5 font-11 mb-5'>
+          AI 몬스터에 대항하여 무기를 구매하고, 구역을 해방시키는 싱글플레이와<br/>
+          다자간 통신을 통해 서로 채팅을 나누고, 서로를 처치하는 멀티플레이를 즐길 수 있습니다.
         </div>
-        <div className='font-11'>
-          <span className='text-orange'>움직임</span> - WASD<br />
-          <span className='text-orange'>달리기</span> - Left SHIFT<br />
-          <span className='text-orange'>상호 작용</span> - F<br />
-          <span className='text-orange'>무기 변경</span> - TAB<br />
-          <span className='text-orange'>총알 재장전</span> - R<br />
-          <span className='text-orange'>총 발사</span> - 마우스 좌클릭<br />
-          <span className='text-orange'>총 줌(Zoom)</span> - 마우스 우클릭<br />
-          <span className='text-orange'>마우스 커서 보이기</span> - Left Alt
+        <div className='fs-2 text-sig2 font-11'>다양한 콘텐츠</div>
+        <div className='fs-5 font-11 mb-5'>
+         온전한 칩을 얻어 무기를 구매하고, 구역을 해방하기 위한 던전에 입장해 아레테를 파괴하세요!<br/>
+         업적을 쌓고 다른 플레이어와 멀티플레이를 통해 실력을 겨뤄보세요.
+        </div>
+        <div className='fs-2 text-sig2 font-11'>쉬운 조작감</div>
+        <div className='fs-5 font-11 mb-5'>
+          FPS를 한 번이라도 해본 사람이라면 어려움 없이 게임을 플레이할 수 있습니다.<br />
+          새로운 게임을 시작함에 있어서 조작키를 학습하는 부분이 스트레스로 다가올 수 있기에,<br />
+          직관적인 조작으로 통용되는 키 세팅을 사용하였습니다.
         </div>
       </div>
 
@@ -153,7 +153,7 @@ const Home = () => {
         <div class="card text-bg-dark rounded-4 border-0 position-absolute top-50 start-50 translate-middle shadow-md">
           <img src={secret} class="card-img" alt="..."/>
           <div class="card-img-overlay position-absolute top-50 start-50 translate-middle">
-            <h5 class="font-11 fs-2 text-white fw-bolder">이 곳은 어디일까요?</h5>
+            <h5 class="font-11 fs-2 text-white fw-bolder text-shadow-3">이 곳은 어디일까요?<br/><br/>이스터에그를 찾고 업적을 달성해보세요.</h5>
           </div>
         </div>
       </div>

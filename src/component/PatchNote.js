@@ -39,7 +39,7 @@ function PatchNote() {
         {Object.keys(patchNotes).map((header, index) => (
           <div key={index} className="d-flex justify-content-center pt-5">
             <div className="card w-100 mx-4 border-0 rounded-4">
-              <div className="card-header font-11 fw-bold text-white fs-4 p-4 rounded-4 mb-2">
+              <div className="card-header font-11 fw-bold text-white fs-4 p-4 rounded-4 mb-2  shadow-md">
                 {header}
               </div>
               {patchNotes[header].map((note, idx) => (
