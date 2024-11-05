@@ -89,7 +89,7 @@ const Home = () => {
 
   return (
     <div className='bg-black box-parent'>
-      <Helmet><title>오르빗</title></Helmet>
+      <Helmet><title>오르빗 - STARTING</title></Helmet>
         <div class="box">
           <p>scroll down</p>
           <div class="vertical"></div>
