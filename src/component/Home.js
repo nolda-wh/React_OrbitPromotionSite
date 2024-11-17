@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import intro from '../images/intro.mp4';
+import poster from '../images/poster.png';
 import unitylogo from '../images/unity.jpg';
 import secret from '../images/secret.png';
 import { Helmet } from 'react-helmet';
@@ -95,7 +96,7 @@ const Home = () => {
           <div class="vertical"></div>
         </div>
       <div className="bg-video-prj " style={{ transform: `scale(${videoScale})` }}>
-        <video className="bg-video__content bg-black" autoPlay muted loop>
+        <video className="bg-video__content bg-black" autoPlay muted loop poster={poster}>
           <source src={intro} type="video/mp4" />
         </video>
 
