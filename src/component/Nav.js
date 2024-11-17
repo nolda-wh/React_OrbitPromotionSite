@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import startinglogo from '../images/logo.png';
 import orbitlogo from '../images/orbit_logo.png';
-import { faChevronRight, faCloudArrowDown, faSquareArrowUpRight, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight, faCloudArrowDown, faPlay, faSquareArrowUpRight, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Link, NavLink } from 'react-router-dom';
 import games_orbit from '../images/intro_1.mp4';
 import { useEffect, useState } from 'react';
@@ -67,7 +67,7 @@ function Nav() {
         </div>
         <a href="https://store.onstove.com/ko/games/3783">
             <div className="downloadBtn">
-              <div className='position-absolute top-50 start-50 translate-middle'><FontAwesomeIcon className='fa-2xl' icon={faCloudArrowDown}/></div>
+              <div className='position-absolute top-50 start-50 translate-middle'><FontAwesomeIcon className='fa-2xl align-middle' icon={faPlay}/><span className='font-11 fw-bolder fs-4 ps-3 align-middle'>플레이</span></div>
             </div>
           </a>
       </nav>

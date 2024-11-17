@@ -158,8 +158,7 @@ a {
     background-color: rgba(68, 202, 202, 1);
     color: #000;
     transition: all 0.3s;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.3);
   }
 
   .downloadBtn:hover {
@@ -236,7 +235,6 @@ a {
 .text-orange {
   color: #EDA026;
 }
-
 
 .fs-0 {
   font-size: calc(1.375rem + 3vw) !important;
