@@ -4,6 +4,7 @@ import orbitlogo from '../images/orbit_logo.png';
 import { faChevronRight, faCloudArrowDown, faPlay, faSquareArrowUpRight, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Link, NavLink } from 'react-router-dom';
 import games_orbit from '../images/intro_1.mp4';
+import games_embers from '../images/intro_embers.mp4';
 import { useEffect, useState } from 'react';
 
 function Nav() {
@@ -85,17 +86,30 @@ function Nav() {
           <div className='row row-cols-1 row-cols-md-3'>
 
             <a className='col box-click' href="https://orbit.starting.run">
-                  <div className='row row-cols-2'>
-                    <div class="col-6 rounded-4 border-0 ">
-                      <video className="card-image-main rounded-4" autoPlay muted loop>
-                        <source src={games_orbit} type="video/mp4" />
-                        </video>
-                    </div>
-                    <div class="col-6">
-                      <div class="card-title fw-bolder mb-2 text-white fs-3">Orbit</div>
-                      <div class="card-text text-white">AI에게 지배당한 세상을 구원하라</div>
-                    </div>
-                  </div>
+              <div className='row row-cols-2'>
+                <div class="col-6 rounded-4 border-0 ">
+                  <video className="card-image-main rounded-4" autoPlay muted loop>
+                    <source src={games_orbit} type="video/mp4" />
+                    </video>
+                </div>
+                <div class="col-6">
+                  <div class="card-title fw-bolder mb-2 text-white fs-3">Orbit</div>
+                  <div class="card-text text-white">AI에게 지배당한 세상을 구원하라</div>
+                </div>
+              </div>
+            </a>
+            <a className='col box-click' href="https://embers.starting.run">
+              <div className='row row-cols-2'>
+                <div class="col-6 rounded-4 border-0 ">
+                  <video className="card-image-main rounded-4" autoPlay muted loop>
+                    <source src={games_embers} type="video/mp4" />
+                    </video>
+                </div>
+                <div class="col-6">
+                  <div class="card-title fw-bolder mb-2 text-white fs-3">잉걸불</div>
+                  <div class="card-text text-white">지친 마음을 달래며 힐링하는 MMORPG</div>
+                </div>
+              </div>
             </a>
 
           </div>
