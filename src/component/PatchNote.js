@@ -7,7 +7,7 @@ function PatchNote() {
 
   useEffect(() => {
     // JSON 파일에서 데이터를 가져옵니다.
-    fetch('https://orbit.starting.run/data.json')
+    fetch('https://orbit.nolda.site/data.json')
       .then(response => response.json())
       .then(data => {
         const notes = data.reduce((acc, note) => {

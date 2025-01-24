@@ -33,7 +33,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://orbit.starting.run",
+  "homepage": "https://orbit.nolda.site",
   "eslintConfig": {
     "extends": [
       "react-app",

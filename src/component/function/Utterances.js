@@ -8,7 +8,7 @@ const Utterances = () => {
     script.src = 'https://utteranc.es/client.js';
     script.async = true;
     script.crossOrigin = 'anonymous';
-    script.setAttribute('repo', 'starting-run/React_OrbitPromotionSite');
+    script.setAttribute('repo', 'nolda-wh/React_OrbitPromotionSite');
     script.setAttribute('issue-term', 'pathname');
     script.setAttribute('theme', 'github-dark');
 
